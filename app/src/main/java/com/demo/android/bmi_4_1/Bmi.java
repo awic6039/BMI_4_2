@@ -22,11 +22,11 @@ public class Bmi extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi);
-        findViews();
+        findMyViews();
         setListeners();
     }
 
-    private void findViews(){
+    private void findMyViews(){
         submit = findViewById(R.id.submit);
         field_height = findViewById(R.id.field_height);
         field_weight = findViewById(R.id.field_weight);
